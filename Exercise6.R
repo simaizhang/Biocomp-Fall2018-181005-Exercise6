@@ -4,6 +4,9 @@ file=read.csv(file="iris.csv",header=T,stringsAsFactors = F) # define the variab
 number <- 3 # define the variable 'number' with default value 3
 head(file,number) # display the first three of file
 
+### Brittni: We wanted you to recreate the functionality of head without using it. I took off 0.25 points, because you did still assign the variables. What we were looking for was something like:
+## file[1:number,]
+
 # part 2
 setwd("~/bio/Biocomp-Fall2018-181005-Exercise6/")
 iris=read.csv(file="iris.csv",header=T,stringsAsFactors = F)
